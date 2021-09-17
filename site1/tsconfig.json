@@ -2,6 +2,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ]
+    },
     "preserveSymlinks": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
